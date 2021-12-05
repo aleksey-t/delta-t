@@ -11,6 +11,16 @@
 
 .wrapper-grey-bg {
     background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper-grey-bg-first {
+    background-color: var(--main-bg-color);
+    padding-top: 37px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .wrapper-white-bg {
@@ -19,18 +29,25 @@
 
 .wrapper-white-dimmed {
     background-color: var(--white-color-dimmed);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .wrapper-light-grey {
     background-color: var(--grey-color-light);
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    flex-shrink: 1;
+    align-items: center;
 }
 
 .header {
     max-width: 1290px;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: flex-start;
-    flex-wrap: wrap;
     flex-grow: 1;
     margin-top: 37px;
 }
@@ -38,10 +55,16 @@
 .logo {
     font-size: 9px;
     padding-bottom: -3px;
-    padding-right: 3px;
+    padding-right: 10px;
+    /*padding-right: 3px;*/
     font-family: Roboto, sans-serif;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.logo-vector {
+    width: 42px;
+    height: 24px;
 }
 
 .logo-bottom-text {
@@ -56,7 +79,6 @@
     font-family: Open-Sans, sans-serif;
     font-weight: bold;
     letter-spacing: 2px;
-    padding-left: 13px;
     padding-top: 12px;
     padding-right: 46px;
 }
@@ -67,10 +89,10 @@
     font-size: 18px;
     font-family: Open-Sans, sans-serif;
     /*font-weight: bolder;*/
+    padding-bottom: 3px;
     display: flex;
     justify-content:space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     flex-grow: 1;
     padding-left: 50px;
 }
@@ -79,20 +101,16 @@
     font-weight: bold;
 }
 
-.menu-items > :last-child {
-    padding-right: 70px;
-}
-
 .menu-item {
-    padding: 17px 15px 0 15px;
+    padding: 17px 0 0 15px;
 }
 
 .call {
     width: fit-content;
     height: fit-content;
     padding-right: 2px;
+    padding-left: 62px;
     padding-top: 5px;
-    padding-left: 10px;
 }
 
 .number {
@@ -107,14 +125,12 @@
 
 .promo {
     max-width: 1290px;
-    padding-top: 199px;
-    padding-bottom: 100px;
-    margin: auto;
+    padding-top: 92px;
+    padding-bottom: 90px;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    flex-wrap: wrap;
     flex-grow: 1;
     flex-shrink: 1;
 }
@@ -131,7 +147,7 @@
     line-height: 90%;
     font-family: Open-Sans, sans-serif;
     font-weight: bold;
-    padding-left: 28px;
+    padding-left: 30px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -140,8 +156,8 @@
     font-size: 16px;
     font-family: Open-Sans, sans-serif;
     font-style: italic;
-    padding-top: 15px;
-    padding-left: 28px;
+    padding-top: 20px;
+    padding-left: 30px;
     padding-bottom: 50px;
 }
 
@@ -149,10 +165,10 @@
     font-size: 44px;
     font-family: Open-Sans, sans-serif;
     font-weight: bold;
-    padding-top: 34px;
+    line-height: 135%;
     padding-left: 0;
     padding-right: 99px;
-    padding-bottom: 42px;
+    padding-bottom: 50px;
 }
 
 .calculate {
@@ -186,21 +202,236 @@
     flex-shrink: 1;
 }
 
+.categories {
+    width: 1296px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
-/*.categories {*/
-/*    width: 100%;*/
-/*    height: 600px;*/
+.appliances-prices {
+    font-size: 38px;
+    font-weight: bold;
+    font-family: Open-Sans, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    padding-bottom: 51px;
+}
+
+.appliances {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    flex-shrink: 1;
+}
+
+.appliance-one, .appliance-two, .appliance-three {
+    width: 416px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 17px;
+    background-color: #F4F4F6;
+}
+
+/*.appliance-one, .appliance-two {*/
+/*    padding-right: 24px;*/
+
 /*}*/
 
-/*.bestsellers {*/
-/*    width: 100%;*/
-/*    height: 836px;*/
-/*}*/
+.appliance-small-img {
+    width: 200px;
+    height: 200px;
+    background-color: #C5C4C3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 100px;
+}
 
-/*.benefits {*/
-/*    width: 1920px;*/
-/*    height: 580px;*/
-/*}*/
+.boilers, .water-radiators, .radiators {
+    font-size: 18px;
+    font-family: Open-Sans, sans-serif;
+    color: #404040;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    /*font-weight: Semibold; ! */
+}
+
+.boilers-description, .water-radiators-description, .radiators-description {
+    font-size: 16px;
+    font-family: Open-Sans, sans-serif;
+    color: #000000;
+    text-align: center;
+    padding: 0 38px 40px 38px;
+}
+
+.boilers-more-info a {
+    color: #F2B43F;
+    font-size: 18px;
+    font-family: Open-Sans, sans-serif;
+    text-decoration: none;
+}
+
+.water-radiators-more-info a {
+    color: #F2B43F;
+    font-size: 18px;
+    font-family: Open-Sans, sans-serif;
+    text-decoration: none;
+}
+
+.radiators-more-info a {
+    color: #F2B43F;
+    font-size: 18px;
+    font-family: Open-Sans, sans-serif;
+    text-decoration: none;
+}
+
+.boilers-more-info, .water-radiators-more-info, .radiators-more-info {
+    padding-bottom: 36px;
+}
+
+.bestsellers {
+    max-width: 1293px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    flex-shrink: 1;
+    padding-top: 60px;
+}
+
+.bestsellers-header-text {
+    font-size: 38px;
+    font-family: Open-Sans, sans-serif;
+    font-weight: bold;
+}
+
+.bestsellers-example-one, .bestsellers-example-two,
+.bestsellers-example-three, .bestsellers-example-four
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bestellers-inner-shell {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    padding-top: 0;
+}
+
+.example-img {
+    width: 276px;
+    height: fit-content;
+    padding: 30px 15px 0 15px;
+}
+
+.example-one-description, .example-two-description,
+.example-three-description, .example-four-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.example-name, .example-model {
+    font-size: 20px;
+    font-family: Open-Sans, sans-serif;
+    padding-bottom: 20px;
+}
+
+.example-name {
+    color: #5E5E5E;
+}
+
+.example-model {
+    width: 180px;
+    text-align: center;
+}
+
+.model-price1, .model-price2, .model-price3, .model-price4 {
+    font-size: 24px;
+    font-family: Open-Sans, sans-serif;
+    font-weight: bold;
+    color: #F2B43F;
+}
+
+.model-price1 {
+    padding-top: 24px;
+}
+
+.benefits {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.benefits-header-text {
+    font-size: 38px;
+    font-family: Open-Sans, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.achievement {
+    width: 1250px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.large-text {
+
+}
+
+.del-time-count {
+    font-size: 144px;
+    font-family: Open-Sans, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 3px 0 0;
+}
+
+.del-time-days {
+    font-size: 24px;
+    height: 14%;
+    font-family: Open-Sans, sans-serif;
+    padding-top: 113px;
+}
+
+.line-short {
+    width: 45px;
+    height: 6px;
+    background-color: #F2B43F;
+    margin-top: 5px;
+}
+
+.line-long  {
+    width: 96px;
+    height: 6px;
+    background-color: #F2B43F;
+}
+
+.benefits-column-description {
+    font-size: 18px;
+    font-family: Open-Sans, sans-serif;
+    margin-top: 35px;
+}
 
 /*.steps_screen {*/
 /*    width: 100%;*/
