@@ -15,7 +15,7 @@
     justify-content: space-around;
 }
 
-.wrapper-grey-bg-first {
+.wrapper-grey-bg-head {
     background-color: var(--main-bg-color);
     padding-top: 37px;
     display: flex;
@@ -374,10 +374,12 @@
 }
 
 .benefits {
-    width: 100%;
     display: flex;
+    justify-content: center;
     flex-flow: column wrap;
+    flex-shrink: 1;
     align-items: center;
+    padding-bottom: 117px;
 }
 
 .benefits-header-text {
@@ -389,14 +391,14 @@
 }
 
 .achievement {
-    width: 1250px;
+    max-width: 1054px;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.large-text {
-
+.large-first, .large-second, .large-third {
+    padding-right: 60px;
 }
 
 .del-time-count {
@@ -404,7 +406,6 @@
     font-family: Open-Sans, sans-serif;
     font-weight: bold;
     text-align: center;
-    padding: 0 3px 0 0;
 }
 
 .del-time-days {
@@ -433,15 +434,41 @@
     margin-top: 35px;
 }
 
-/*.steps_screen {*/
-/*    width: 100%;*/
-/*    height: 1683px;*/
-/*}*/
+.steps_screen {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+}
 
-/*.contact_block {*/
-/*    width: 100%;*/
-/*    height: 1590px;*/
-/*}*/
+.steps-header {
+    font-size: 38px;
+    font-family: Open-Sans, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 70px;
+}
+
+.step {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+.step-one, .step-two, .step-three,
+.step-four, .step-five, .step-six,
+.step-seven {
+    max-width: 860px;
+    height: 200px;
+    display: flex;
+    border: 1px solid red;
+}
 
 
 
