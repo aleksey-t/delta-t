@@ -105,22 +105,32 @@
     padding: 17px 0 0 15px;
 }
 
-.call {
-    width: fit-content;
-    height: fit-content;
-    padding-right: 2px;
+.header-call {
     padding-left: 62px;
     padding-top: 5px;
+    margin-right: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*align-items: baseline;*/
 }
 
-.number {
-    height: fit-content;
+.header-call-img {
+    width: 18px;
+    height: 18px;
+    margin-top: 5px;
+
+}
+
+.header-number {
     font-size: 18px;
     color: #4F4F4F;
     font-family: Open-Sans, sans-serif;
     line-height: 110%;
-    padding-top: 14px;
-    padding-bottom: 0;
+    text-align: center;
+    padding-bottom: 3px;
+    padding-left: 17px;
+    margin-top: 9px;
 }
 
 .promo {
@@ -179,7 +189,7 @@
 .project-calculate {
     width: 100%;
     height: 100%;
-    background-color: #f29F05;
+    background-color: #F29F05;
     border-radius: 5%;
     font-size: 18px;
     font-weight: bold;
@@ -470,6 +480,155 @@
     border: 1px solid red;
 }
 
+.contact_block {
+    max-width: 1076px;
+    height: 948px;
+    background-color: #F5F4F2;
+    position: relative;
+    padding-right: 86px;
+    padding-left: 441px;
+    box-shadow: 3px 3px 3px 2px darkgrey;
+}
 
+.contact-form {
+    max-width: 465px;
+    background-color: #F5C876;
+    font-size: 30px;
+    font-family: Open-Sans, sans-serif;
+    padding: 0 33px 0 41px;
+    position: absolute;
+    top: 130px;
+    left: -122px;
+}
 
+.contact-form-header {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 89px;
+    padding-top: 84px;
+}
+
+.contact-form-address {
+    width: 391px;
+    display: flex;
+    padding-bottom: 75px;
+}
+
+.contact-form-email {
+    width: 391px;
+    display: flex;
+    padding-bottom: 75px;
+}
+
+.contact-form-phone {
+    width: 391px;
+    display: flex;
+    padding-bottom: 182px;
+}
+
+.contacts-location-img, .contacts-message-img, .contacts-call-img {
+    padding-right: 43px;
+}
+
+.contacts-message-img, .contacts-call-img {
+}
+
+.contacts-location-img {
+    padding-top: 15px;
+}
+
+.application {
+    padding-top: 150px;
+}
+
+.application-header-large {
+    font-size: 30px;
+    font-family: Open-Sans, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.application-header-small {
+    font-size: 16px;
+    font-family: Open-Sans, sans-serif;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.app-field-one, .app-field-two, .app-field-three {
+    width: 549px;
+    height: 80px;
+    margin-bottom: 20px;
+    border: 2px solid #9C9C9C;
+    border-radius: 5px;
+    background-color: #F5F4F2;
+}
+
+.app-field-four {
+    width: 549px;
+    height: 160px;
+    border: 2px solid #9C9C9C;
+    border-radius: 5px;
+    background-color: #F5F4F2;
+    resize: none;
+    margin-bottom: 54px;
+}
+
+#order {
+    width: 259px;
+    height: 52px;
+    background-color: #F29F05;
+    font-size: 18px;
+    font-family: Open-Sans, sans-serif;
+    color: white;
+    border: 0 none;
+    border-radius: 5px;
+}
+
+.footer {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F4F2;
+}
+
+.footer {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.footer-large {
+
+}
+
+.footer-logo {
+    max-width: 244px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.footer-logo-img {
+
+}
+
+.footer-logo-text {
+    font-size: 35px;
+    font-family: Open-Sans, sans-serif;
+    font-weight: bold;
+    padding-top: 8px;
+
+}
+
+.footer-call {
+
+}
+
+.footer-number {
+
+}
 
