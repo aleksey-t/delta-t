@@ -18,27 +18,62 @@
             </div>
         </div>
         <div class="delta_t_large">Дельта t°</div>
-        <div class="menu-items">
-            <div class="menu-item">Товары</div>
-            <div class="menu-item">Хиты продаж</div>
-            <div class="menu-item">Наш подход</div>
-            <div class="menu-item">Контакты</div>
+        <div class="burger-menu" id="burger-menu">
+            <div class="burger-menu-line"></div>
+            <div class="burger-menu-line"></div>
+            <div class="burger-menu-line"></div>
         </div>
+        <div class="menu-items">
+            <div class="links hidden">
+                <div class="menu-item">
+                    <a href="#products">
+                        Товары
+                    </a>
+                </div>
+                <div class="menu-item">
+                    <a href="#hits">
+                        Хиты продаж
+                    </a>
 
-        <div class="header-contacts">
-            <div class="header-call">
-                <img src="images/call.svg" alt="звонок" class="header-call-img"></div>
-            <div class="header-number">+ 7 (950) 753 - 74 -14</div>
+                </div>
+                <div class="menu-item">
+                    <a href="#approach">
+                        Наш подход
+                    </a>
+
+                </div>
+                <div class="menu-item">
+                    <a href="#contacts">
+                        Контакты
+                    </a>
+                </div>
+            </div>
+            <div class="header-contacts">
+                <div class="header-call">
+                    <img src="images/call.svg" alt="звонок" class="header-call-img"></div>
+                <div class="header-number">
+                    <strong>
+                        + 7 (950) 753 - 74 -14
+                    </strong>
+                </div>
+            </div>
+            <div class="header-contacts">
+                Воронеж, ул. Дорожная 2
+            </div>
+
         </div>
     </div>
 </div>
-
 <div class="wrapper wrapper-grey-bg">
     <div class="promo">
         <div class="promo-description">
             <div class="promo-description-third-part">Отопительное оборудование в Воронеже "под ключ"</div>
             <div class="calculate">
-                <button class="button-yellow">Рассчитать проект</button>
+                <button class="button-yellow">
+                    <a href="#calculate-project">
+                        Рассчитать проект
+                    </a>
+                </button>
             </div>
         </div>
         <div class="promo-images">
@@ -48,7 +83,7 @@
 </div>
 
 
-<div class="wrapper wrapper-white-dimmed">
+<div class="wrapper wrapper-white-dimmed" id="products">
     <div class="categories">
         <div class="heading-2">Качественное оборудование по низким ценам</div>
         <div class="appliances">
@@ -80,7 +115,7 @@
     </div>
 </div>
 
-<div class="wrapper wrapper-light-grey">
+<div class="wrapper wrapper-light-grey" id="hits">
     <div class="heading-2">Хиты продаж</div>
     <div class="bestsellers">
         <div class="bestellers-inner-shell">
@@ -179,7 +214,7 @@
     </div>
 </div>
 
-<div class="wrapper wrapper-light-grey steps">
+<div class="wrapper wrapper-light-grey steps" id="approach">
     <div class="steps_screen">
         <div class="steps-header">
             Применяем комплексный подход
@@ -195,9 +230,8 @@
     </div>
 </div>
 
-<div class="wrapper wrapper-white-dimmed wrapper-contacts">
+<div class="wrapper wrapper-white-dimmed wrapper-contacts" id="contacts">
     <div class="contact_block">
-
         <div class="contact-form">
             <div class="contact-form-header">НАШИ КОНТАКТЫ</div>
 
@@ -220,7 +254,7 @@
             </div>
 
         </div>
-        <div class="application">
+        <div class="application" id="calculate-project">
             <div class="application-header">
                 <div class="application-header-large">ОСТАВЬТЕ ЗАЯВКУ</div>
                 <div class="application-fields">
@@ -253,5 +287,6 @@
 
 </div>
 
+<script src="js/script.js"></script>
 </body>
 </html>

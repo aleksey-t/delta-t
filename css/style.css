@@ -50,6 +50,7 @@
     justify-content: flex-start;
     flex-grow: 1;
     margin-top: 37px;
+    align-items: baseline;
 }
 
 .logo {
@@ -86,27 +87,38 @@
     color: #4F4F4F;
     font-size: 18px;
     font-family: Open-Sans, sans-serif;
-    /*font-weight: bolder;*/
     padding-bottom: 3px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-flow: row wrap;
     flex-grow: 1;
     padding-left: 50px;
+    align-items: center;
 }
 
-.menu-items > :first-child {
-    font-weight: bold;
+.menu-item:hover {
+    border-bottom: #F2B43F solid 4px;
+    color: black;
+    cursor: pointer;
 }
 
 .menu-item {
-    padding: 17px 0 0 15px;
+    margin: 0 20px;
+    border-bottom: solid 4px transparent;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: #4F4F4F;
+    line-height: 40px;
+}
+
+.links{
+    display: flex;
 }
 
 .header-call {
     padding-left: 62px;
-    padding-top: 5px;
-    margin-right: 2px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -123,11 +135,8 @@
     font-size: 18px;
     color: #4F4F4F;
     font-family: Open-Sans, sans-serif;
-    line-height: 110%;
     text-align: center;
-    padding-bottom: 3px;
     padding-left: 5px;
-    margin-top: 9px;
 }
 
 .promo {
@@ -193,6 +202,10 @@
     font-weight: bold;
     color: #F1F1F1;
     border: none;
+}
+.button-yellow a{
+    text-decoration: none;
+    color: white;
 }
 
 .promo-images {
@@ -602,4 +615,13 @@ textarea {
     align-items: center;
     justify-content: center;
     padding: 20px;
+}
+
+.heading-2 {
+    font-size: 30px;
+    font-family: Open-Sans, sans-serif;
+    font-weight: bold;
+    line-height: 135%;
+    text-align: center;
+    margin-bottom: 50px;
 }
