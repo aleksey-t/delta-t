@@ -97,7 +97,7 @@
 }
 
 .menu-item:hover {
-    border-bottom: #F2B43F solid 4px;
+    border-bottom: var(--delta-yellow) solid 4px;
     color: black;
     cursor: pointer;
 }
@@ -198,14 +198,14 @@
     min-width: 200px;
     background-color: #F29F05;
     border-radius: 5px;
+    border: none;
     font-size: 18px;
     font-weight: bold;
-    color: #F1F1F1;
-    border: none;
-}
-.button-yellow a{
     text-decoration: none;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .promo-images {
@@ -452,6 +452,7 @@
     font-size: 18px;
     font-family: Open-Sans, sans-serif;
     margin-top: 35px;
+    max-width: 210px;
 }
 
 .steps_screen {
