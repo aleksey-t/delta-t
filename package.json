@@ -1,0 +1,25 @@
+{
+  "name": "delta-t",
+  "version": "1.0.0",
+  "description": "",
+  "main": "validate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Urgant/delta-t.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Urgant/delta-t/issues"
+  },
+  "homepage": "https://github.com/Urgant/delta-t#readme",
+  "dependencies": {
+    "prettier": "^2.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1"
+  }
+}

@@ -195,7 +195,7 @@
 
 .button-yellow {
     height: 40px;
-    min-width: 200px;
+    width: 250px;
     background-color: #F29F05;
     border-radius: 5px;
     border: none;
