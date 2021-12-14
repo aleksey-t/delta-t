@@ -271,41 +271,55 @@
           </div>
         </div>
         <div class="application" id="calculate-project">
-            <div class="application-header">
-                <div class="application-header-large">ОСТАВЬТЕ ЗАЯВКУ</div>
-                <div class="application-fields">
+          <div class="application-header">
+            <div class="application-header-large">ОСТАВЬТЕ ЗАЯВКУ</div>
+            <div class="application-fields">
+              <div class="form-item">
+                <label for="customer-name">Имя</label>
+                <input
+                  type="text"
+                  class="app-field-one"
+                  placeholder="Имя"
+                  id="customer-name"
+                />
+                <div class="attention">Поле обязательно к заполнению</div>
+              </div>
 
-                    <div class="form-item">
-                        <label for="customer-name">Имя</label>
-                    <input type="text" class="app-field-one" placeholder="Имя" id="customer-name">
-                    <div class="attention">Поле обязательно к заполнению</div>
-                    </div>
+              <div class="form-item">
+                <label for="phone">Номер телефона</label>
+                <input
+                  type="text"
+                  class="app-field-two"
+                  placeholder="Телефон"
+                  id="phone"
+                />
+                <div class="attention">Поле обязательно к заполнению</div>
+              </div>
 
-                    <div class="form-item">
-                        <label for="phone">Номер телефона</label>
-                    <input type="text" class="app-field-two" placeholder="Телефон" id="phone">
-                    <div class="attention">Поле обязательно к заполнению</div>
-                    </div>
+              <div class="form-item">
+                <label for="email">Адрес электронной почты</label>
+                <input
+                  type="text"
+                  class="app-field-three"
+                  placeholder="Электронная почта"
+                  id="email"
+                />
+                <div class="attention"></div>
+              </div>
 
-                    <div class="form-item">
-                        <label for="email">Адрес электронной почты</label>
-                    <input type="text" class="app-field-three" placeholder="Электронная почта" id="email">
-                    <div class="attention"></div>
-                    </div>
+              <div class="form-item">
+                <label for="message-box">Текст заявки</label>
+                <textarea
+                  class="app-field-four"
+                  placeholder="Текст заявки"
+                  id="message-box"
+                ></textarea>
+                <div class="attention">Поле обязательно к заполнению</div>
+              </div>
 
-                    <div class="form-item">
-                        <label for="message-box">Текст заявки</label>
-                    <textarea class="app-field-four" placeholder="Текст заявки" id="message-box"></textarea>
-                        <div class="attention">Поле обязательно к заполнению</div>
-                    </div>
-
-
-                    <a id="order" class="button-yellow">отправить заявку</a>
-
-
-                </div>
+              <a id="order" class="button-yellow">отправить заявку</a>
             </div>
-
+          </div>
         </div>
       </div>
     </div>
@@ -332,10 +346,6 @@
     </div>
 
     <script src="js/script.js"></script>
+    <script src="validate.js"></script>
   </body>
-<div id="button-up"></div>
-
-<script src="js/script.js"></script>
-<script src="validate.js"></script>
-</body>
 </html>
