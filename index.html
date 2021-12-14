@@ -258,22 +258,26 @@
                 <div class="application-fields">
 
                     <div class="form-item">
-                    <input type="text" class="app-field-one" placeholder="Имя">
+                        <label for="customer-name">Имя</label>
+                    <input type="text" class="app-field-one" placeholder="Имя" id="customer-name">
                     <div class="attention">Поле обязательно к заполнению</div>
                     </div>
 
                     <div class="form-item">
-                    <input type="text" class="app-field-two" placeholder="Телефон">
+                        <label for="phone">Номер телефона</label>
+                    <input type="text" class="app-field-two" placeholder="Телефон" id="phone">
                     <div class="attention">Поле обязательно к заполнению</div>
                     </div>
 
                     <div class="form-item">
-                    <input type="text" class="app-field-three" placeholder="Электронная почта">
+                        <label for="email">Адрес электронной почты</label>
+                    <input type="text" class="app-field-three" placeholder="Электронная почта" id="email">
                     <div class="attention"></div>
                     </div>
 
                     <div class="form-item">
-                    <textarea class="app-field-four" placeholder="Текст заявки"></textarea>
+                        <label for="message-box">Текст заявки</label>
+                    <textarea class="app-field-four" placeholder="Текст заявки" id="message-box"></textarea>
                         <div class="attention">Поле обязательно к заполнению</div>
                     </div>
 
@@ -320,5 +324,6 @@
 <div id="button-up"></div>
 
 <script src="js/script.js"></script>
+<script src="validate.js"></script>
 </body>
 </html>
