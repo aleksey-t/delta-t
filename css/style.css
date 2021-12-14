@@ -552,10 +552,17 @@
 .app-field-one, .app-field-two, .app-field-three {
     width: 100%;
     height: 80px;
-    margin-bottom: 20px;
     border: 2px solid #9C9C9C;
     border-radius: 5px;
     background-color: #F5F4F2;
+}
+
+.app-field-one, .app-field-two, .app-field-three {
+    margin-bottom: 1px;
+}
+
+.app-field-three {
+    margin-bottom: 18px;
 }
 
 .app-field-four {
@@ -565,7 +572,6 @@
     border-radius: 5px;
     background-color: #F5F4F2;
     resize: none;
-    margin-bottom: 54px;
 }
 
 input[type=text] {
@@ -675,4 +681,12 @@ textarea {
 .header-contacts {
     display: flex;
     align-items: center;
+}
+
+.attention {
+    font-size: 14px;
+}
+
+.form-item {
+    margin-bottom: 20px;
 }
