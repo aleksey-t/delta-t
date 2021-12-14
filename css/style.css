@@ -505,10 +505,16 @@
     background-color: #F5C876;
     font-size: 30px;
     font-family: Open-Sans, sans-serif;
-    padding: 0 33px 0 41px;
+    padding: 0 33px 37px 41px;
     position: absolute;
     top: 130px;
     left: -122px;
+}
+
+.contact-form-item {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 75px;
 }
 
 .contact-form-header {
@@ -587,19 +593,22 @@ textarea {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding: 83px 0 100px 315px;
+    padding: 83px 0 100px 0;
+    border: 1px solid black;
 }
 
 .footer-logo {
+    max-width: 258px;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: center;
     margin-right: 100px;
     padding-top: 7px;
+    border: 1px solid yellowgreen;
 }
 
 .footer-logo-img {
-    max-width: 70px;
+   width: 70px;
 }
 
 .footer-logo-text {
@@ -634,7 +643,6 @@ textarea {
 
 .footer-small {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     font-size: 18px;
     font-family: Roboto, sans-serif;
@@ -642,15 +650,12 @@ textarea {
 }
 
 .footer-small-links {
+    width: 38%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-between;
+    flex-shrink: 1;
     padding-top: 40px;
-}
-
-.footer-articles, .footer-hot-sales {
-    padding-right: 214px;
-    text-decoration: none;
 }
 
 .heading-2 {
@@ -662,15 +667,7 @@ textarea {
     margin-bottom: 50px;
 }
 
-.footer-articles a {
-    text-decoration: none;
-}
-
-.footer-hot-sales a {
-    text-decoration: none;
-}
-
-.footer-our-approach a {
+.footer-link a {
     text-decoration: none;
 }
 
