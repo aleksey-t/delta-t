@@ -1,244 +1,251 @@
 @media screen and (max-width: 600px) {
-    .contact_block {
-        padding: 0;
-        height: unset;
-        box-shadow: none;
-    }
+  .contact_block {
+    padding: 0;
+    height: unset;
+    box-shadow: none;
+  }
 
-    .contact-form {
-        position: relative;
-        left: 0;
-        margin: 0;
-        padding: 20px;
-        top: initial;
-        max-width: initial;
-        font-size: 16px;
-    }
+  .contact-form {
+    position: relative;
+    left: 0;
+    margin: 0;
+    padding: 20px;
+    top: initial;
+    max-width: initial;
+    font-size: 16px;
+  }
 
-    .contact-form-header {
-        padding: 30px 0;
-        margin: 0;
-    }
+  .contact-form-header {
+    padding: 30px 0;
+    margin: 0;
+  }
 
-    .application {
-        padding: 50px 0;
-    }
+  .application {
+    padding: 50px 0;
+  }
 
-    .app-field-four {
-        width: 100%;
-    }
+  .app-field-four {
+    width: 100%;
+  }
 
-    input[type=text] {
-        height: 40px;
-    }
+  input[type="text"] {
+    height: 40px;
+  }
 
-    input, textarea {
-        width: 100%;
-        box-sizing: border-box;
-    }
+  input,
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
 
-    .header {
-        padding: 0 20px;
-        margin: 20px 0;
-        display: flex;
-        justify-content: flex-start;
-        position: relative;
-    }
+  .header {
+    padding: 0 20px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+  }
 
-    .wrapper-grey-bg-head {
-        padding: 0;
-    }
+  .wrapper-grey-bg-head {
+    padding: 0;
+  }
 
-    .menu-items {
-        justify-content: flex-start;
-        flex-direction: column;
-        margin-top: 20px;
-        border-left: 4px solid #f29f05;
-        padding-left: 10px;
-        align-items: flex-start;
-    }
+  .menu-items {
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 20px;
+    border-left: 4px solid #f29f05;
+    padding-left: 10px;
+    align-items: flex-start;
+  }
 
-    .menu-item {
-        margin-bottom: 20px;
-    }
+  .menu-item {
+    margin-bottom: 20px;
+  }
 
-    .menu-item:hover {
-        border: none;
-    }
+  .menu-item:hover {
+    border: none;
+  }
 
-    .menu-item a{
-        color: #4F4F4F;
-        text-decoration: none;
-    }
+  .menu-item a {
+    color: #4f4f4f;
+    text-decoration: none;
+  }
 
-    .hidden {
-        display: none;
-    }
+  .hidden {
+    display: none;
+  }
 
-    .links {
-        flex-direction: column;
-    }
+  .links {
+    flex-direction: column;
+  }
 
-    .header-call {
-        padding: 0;
-    }
+  .header-call {
+    padding: 0;
+  }
 
-    .header-contacts {
+  .header-contacts {
+    align-items: center;
+  }
 
-        align-items: center;
-    }
+  .promo {
+    padding: 0 20px;
+    text-align: center;
+  }
 
-    .promo {
-        padding: 0 20px;
-        text-align: center;
-    }
+  .promo-description {
+    text-align: center;
+  }
 
-    .promo-description {
-        text-align: center;
-    }
+  .promo-description-third-part {
+    padding: 0;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
 
-    .promo-description-third-part {
-        padding: 0;
-        font-size: 30px;
-        margin-bottom: 30px;
-    }
+  .button-yellow {
+    margin: 0 auto;
+  }
 
-    .button-yellow {
-        margin: 0 auto;
-    }
+  .categories {
+    width: unset;
+    padding: 20px;
+  }
 
-    .categories {
-        width: unset;
-        padding: 20px;
-    }
+  .appliances {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .appliances {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .appliance {
+    background-color: var(--white-color-dimmed);
+    margin: 30px 0;
+    width: unset;
+  }
 
-    .appliance {
-        background-color: var(--white-color-dimmed);
-        margin: 30px 0;
-        width: unset;
-    }
+  .contact-form-phone {
+    width: unset;
+  }
 
-    .contact-form-phone {
-        width: unset;
-    }
+  .contacts-call-img {
+    padding: 0;
+  }
 
-    .contacts-call-img {
-        padding: 0;
-    }
+  .contact-form-email {
+    width: unset;
+  }
 
-    .contact-form-email {
-        width: unset;
-    }
+  .contacts-img {
+    padding: 0;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+  }
 
-    .contacts-img {
-        padding: 0;
-        margin-right: 20px;
-        width: 30px;
-        height: 30px;
-    }
+  .contact-form-item {
+    width: unset;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+  }
 
-    .contact-form-item {
-        width: unset;
-        padding-bottom: 30px;
-        display: flex;
-        align-items: center;
-    }
+  .del-time-count {
+    font-size: 50px;
+  }
 
-    .del-time-count {
-        font-size: 50px;
-    }
+  .large-text {
+    padding: 0 20px;
+    margin: 30px 0;
+  }
 
-    .large-text {
-        padding: 0 20px;
-        margin: 30px 0;
-    }
+  .benefits-column-description {
+    max-width: 130px;
+  }
 
-    .benefits-column-description {
-        max-width: 130px;
-    }
+  .benefits {
+    padding-bottom: 0;
+  }
 
-    .benefits {
-        padding-bottom: 0;
-    }
+  .example-img {
+    padding: 0;
+    width: unset;
+    max-width: 280px;
+  }
 
-    .example-img {
-        padding: 0;
-        width: unset;
-        max-width: 280px;
-    }
+  .example-img img {
+    padding: 0;
+    width: 100%;
+  }
 
-    .example-img img {
-        padding: 0;
-        width: 100%;
-    }
+  .bestellers-inner-shell {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
 
-    .bestellers-inner-shell {
-        flex-wrap: nowrap;
-        flex-direction: column;
-    }
+  .model-price1 {
+    padding: 0;
+  }
 
-    .model-price1 {
-        padding: 0;
-    }
+  .bestseller-item {
+    margin-bottom: 60px;
+  }
 
-    .bestseller-item {
-        margin-bottom: 60px;
-    }
+  .application-fields {
+    padding: 20px;
+    text-align: center;
+  }
 
-    .application-fields {
-        padding: 20px;
-        text-align: center;
-    }
+  .wrapper-contacts {
+    padding-top: 0;
+  }
 
-    .wrapper-contacts {
-        padding-top: 0;
-    }
+  .calculate {
+    width: unset;
+  }
 
-    .calculate {
-        width: unset;
-    }
+  .heading-2 {
+    font-size: 30px;
+    font-family: Open-Sans, sans-serif;
+    font-weight: bold;
+    line-height: 135%;
+    text-align: center;
+    margin-bottom: 0;
+  }
 
-    .heading-2 {
-        font-size: 30px;
-        font-family: Open-Sans, sans-serif;
-        font-weight: bold;
-        line-height: 135%;
-        text-align: center;
-        margin-bottom: 0;
-    }
+  .burger-menu {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
-    .burger-menu {
-        position: absolute;
-        right: 20px;
-        top: 0;
-        width: 30px;
-        height: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
+  .burger-menu.cross-icon > .burger-menu-line:first-child {
+    transform: rotate(45deg) translateY(10px) translateX(10px);
+  }
 
-    .burger-menu.cross-icon > .burger-menu-line:first-child {
-        transform: rotate(45deg) translateY(10px) translateX(10px);
-    }
+  .burger-menu.cross-icon > .burger-menu-line:nth-child(2) {
+    display: none;
+  }
 
-    .burger-menu.cross-icon > .burger-menu-line:nth-child(2) {
-        display: none;
-    }
+  .burger-menu.cross-icon > .burger-menu-line:last-child {
+    transform: rotate(-45deg) translateY(-2px) translateX(1px);
+  }
 
-    .burger-menu.cross-icon > .burger-menu-line:last-child {
-        transform: rotate(-45deg) translateY(-2px) translateX(1px);
-    }
+  .burger-menu-line {
+    width: 30px;
+    height: 4px;
+    background: #777;
+  }
 
-    .burger-menu-line {
-        width: 30px;
-        height: 4px;
-        background: #777;
-    }
+  .footer-large {
+    flex-direction: column;
+  }
+  .footer-logo{
+      margin-bottom: 30px;
+  }
 }
