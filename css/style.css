@@ -605,7 +605,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 .footer {
@@ -721,4 +721,9 @@ textarea {
 }
 .wrapper-bordered{
     border-top: solid 1px grey;
+}
+
+#form-message{
+  color: red;
+  height: 20px;
 }

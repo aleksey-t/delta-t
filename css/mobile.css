@@ -245,7 +245,14 @@
   .footer-large {
     flex-direction: column;
   }
-  .footer-logo{
-      margin-bottom: 30px;
+  .footer-logo {
+    margin-bottom: 30px;
+  }
+
+  .form-item {
+    text-align: left;
+  }
+  .form-item label {
+    line-height: 24px;
   }
 }

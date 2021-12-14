@@ -1,20 +1,36 @@
 let nameField = document.getElementById("customer-name");
 let phoneNumber = document.getElementById("phone");
-let zajavka = document.getElementById("message-box");
 let sendOrder = document.getElementById("order");
+let formMessage = document.getElementById("form-message");
 
 function checkFields() {
-  if (!nameField.value.length) {
+  const name = nameField.value.length;
+  const phone = phoneNumber.value.length;
+  const formValid = name && phone;
+
+  if (!name) {
     nameField.style.borderColor = "red";
+  }else {
+    nameField.style.borderColor = "grey";
   }
-  if (!phoneNumber.value.length) {
+
+  if (!phone) {
     phoneNumber.style.borderColor = "red";
+  }else {
+    phoneNumber.style.borderColor = "grey";
   }
-  if (!zajavka.value.length) {
-    zajavka.style.borderColor = "red";
+
+  if(!formValid){
+    formMessage.innerHTML = "Заполните обязательные поля";
+  }else {
+    formMessage.innerHTML = "";
   }
 }
 sendOrder.addEventListener("click", checkFields);
+nameField.addEventListener("change", checkFields);
+phoneNumber.addEventListener("change", checkFields);
+
+
 
 // у кнопки id=order
 //
