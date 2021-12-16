@@ -3,6 +3,7 @@
     padding: 0;
     height: unset;
     box-shadow: none;
+    z-index: 1;
   }
 
   .contact-form {
@@ -11,8 +12,13 @@
     margin: 0;
     padding: 20px;
     top: initial;
-    max-width: initial;
     font-size: 16px;
+    width: unset;
+    border-radius: 0;
+  }
+
+  .contact-form .heading-2 {
+    margin: 50px 0;
   }
 
   .contact-form-header {
@@ -78,6 +84,15 @@
 
   .links {
     flex-direction: column;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    background: #fff;
+    right: 0;
+    width: 100%;
+    z-index: 4;
+    box-shadow: #d3d3d3 0 3px 5px 0;
+    border-left: solid 4px var(--delta-yellow);
   }
 
   .header-call {
@@ -120,7 +135,7 @@
 
   .appliance {
     background-color: var(--white-color-dimmed);
-    margin: 30px 0;
+    margin: 10px 0;
     width: unset;
   }
 
@@ -179,8 +194,26 @@
   }
 
   .bestellers-inner-shell {
-    flex-wrap: nowrap;
-    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .example-name {
+    font-size: 14px;
+    max-width: 130px;
+  }
+
+  .model-price {
+    font-size: 15px;
+    max-width: 130px;
+    color: var(--delta-yellow);
+  }
+
+  .example-model {
+    font-size: 15px;
+    max-width: 130px;
+  }
+
+  .bestseller-item {
+    max-width: 135px;
   }
 
   .model-price1 {
@@ -198,6 +231,7 @@
 
   .wrapper-contacts {
     padding-top: 0;
+    padding-bottom: 0;
   }
 
   .calculate {
@@ -214,14 +248,16 @@
   }
 
   .burger-menu {
-    position: absolute;
+    position: fixed;
     right: 20px;
-    top: 0;
+    top: 20px;
     width: 30px;
     height: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 5;
+    background: var(--main-bg-color);
   }
 
   .burger-menu.cross-icon > .burger-menu-line:first-child {
@@ -239,7 +275,7 @@
   .burger-menu-line {
     width: 30px;
     height: 4px;
-    background: #777;
+    background: var(--delta-yellow);
   }
 
   .footer-large {
@@ -247,6 +283,8 @@
   }
   .footer-logo {
     margin-bottom: 30px;
+    margin-right: 0;
+    padding-right: 0;
   }
 
   .form-item {
@@ -254,5 +292,64 @@
   }
   .form-item label {
     line-height: 24px;
+  }
+  .mobile-block {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .step-text {
+    width: 200px;
+  }
+  .burger-menu.cross-icon {
+    background: transparent;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1380px) {
+  .title-wrapper {
+    margin-bottom: 20px;
+  }
+  .header{
+    justify-content: center;
+  }
+  .contact-form {
+    position: relative;
+    left: 0;
+    margin: 0;
+    padding: 20px;
+    top: initial;
+    font-size: 16px;
+    width: unset;
+    border-radius: 0;
+  }
+
+  .contact_block {
+    padding: 20px;
+    width: unset;
+    height: unset;
+  }
+
+  .menu-items{
+    justify-content: center;
+  }
+  .links{
+    margin: 10px 0;
+  }
+  .header-contacts{
+    margin-right: 20px;
+  }
+  .promo{
+    padding-top: 30px;
+    justify-content: center;
+  }
+  .appliances{
+    justify-content: center;
+  }
+  .appliance{
+    margin-bottom: 20px;
+  }
+  .contact-form{
+    border-radius: 5px;
   }
 }

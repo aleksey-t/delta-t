@@ -12,15 +12,19 @@
     <link rel="stylesheet" href="css/mobile.css" />
   </head>
   <body>
-    <div class="wrapper wrapper-grey-bg-head">
+    <div class="wrapper wrapper-grey-bg-head" id="top">
       <div class="header">
-        <div class="logo-wrapper">
-          <div class="logo">
-            <img src="images/Vector.png" class="logo-vector" alt="logo" />
-            <div class="logo-bottom-text">ДЕЛЬТА t</div>
+
+        <div class="title-wrapper">
+          <div class="logo-wrapper">
+            <div class="logo">
+              <img src="images/Vector.png" class="logo-vector" alt="logo" />
+              <div class="logo-bottom-text">ДЕЛЬТА t</div>
+            </div>
           </div>
+          <div class="delta_t_large">Дельта t°</div>
         </div>
-        <div class="delta_t_large">Дельта t°</div>
+
         <div class="burger-menu" id="burger-menu">
           <div class="burger-menu-line"></div>
           <div class="burger-menu-line"></div>
@@ -29,16 +33,19 @@
         <div class="menu-items">
           <div class="links hidden">
             <div class="menu-item">
-              <a href="#products"> Товары </a>
+              <a href="#top">Главная</a>
             </div>
             <div class="menu-item">
-              <a href="#hits"> Хиты продаж </a>
+              <a href="#products">Товары</a>
             </div>
             <div class="menu-item">
-              <a href="#approach"> Наш подход </a>
+              <a href="#hits">Хиты продаж</a>
             </div>
             <div class="menu-item">
-              <a href="#contacts"> Контакты </a>
+              <a href="#approach">Наш подход</a>
+            </div>
+            <div class="menu-item">
+              <a href="#contacts">Контакты</a>
             </div>
           </div>
           <div class="header-contacts">
@@ -80,44 +87,50 @@
         <div class="heading-2">Качественное оборудование по низким ценам</div>
         <div class="appliances">
           <div class="appliance">
-            <div class="appliance-small-img"></div>
+            <div class="appliance-small-img">
+              <img src="images/gaz-kotel.jpeg" alt="газовый котел" />
+            </div>
             <div class="boilers">КОТЛЫ</div>
             <div class="boilers-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </div>
             <div class="boilers-more-info">
-              <a href="about:blank">узнать больше</a>&nbsp;<img
-                src="images/Arrow.svg"
-                alt=""
-              />
+<!--              <a href="about:blank">узнать больше</a>&nbsp;<img-->
+<!--                src="images/Arrow.svg"-->
+<!--                alt=""-->
+<!--              />-->
             </div>
           </div>
 
           <div class="appliance">
-            <div class="appliance-small-img"></div>
+            <div class="appliance-small-img">
+              <img src="images/vodonagrev.jpeg" alt="водонагреватель" />
+            </div>
             <div class="water-radiators">ВОДОНАГРЕВАТЕЛИ</div>
             <div class="water-radiators-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </div>
             <div class="water-radiators-more-info">
-              <a href="about:blank">узнать больше</a>&nbsp;<img
-                src="images/Arrow.svg"
-                alt=""
-              />
+<!--              <a href="about:blank">узнать больше</a>&nbsp;<img-->
+<!--                src="images/Arrow.svg"-->
+<!--                alt=""-->
+<!--              />-->
             </div>
           </div>
 
           <div class="appliance">
-            <div class="appliance-small-img"></div>
+            <div class="appliance-small-img">
+              <img src="images/radiator.jpeg" alt="радиатор" />
+            </div>
             <div class="radiators">РАДИАТОРЫ</div>
             <div class="radiators-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </div>
             <div class="radiators-more-info">
-              <a href="about:blank">узнать больше</a>&nbsp;<img
-                src="images/Arrow.svg"
-                alt=""
-              />
+<!--              <a href="about:blank">узнать больше</a>&nbsp;<img-->
+<!--                src="images/Arrow.svg"-->
+<!--                alt=""-->
+<!--              />-->
             </div>
           </div>
         </div>
@@ -128,47 +141,50 @@
       <div class="heading-2">Хиты продаж</div>
       <div class="bestsellers">
         <div class="bestellers-inner-shell">
-          <div class="bestseller-item bestsellers-example-one">
-            <div class="example-img">
-              <img src="images/Group_34.svg" alt="" />
+          <div class="mobile-block">
+            <div class="bestseller-item bestsellers-example-one">
+              <div class="example-img">
+                <img src="images/Group_34.svg" alt="" />
+              </div>
+              <div class="example-one-description">
+                <div class="example-name">газовый котёл</div>
+                <div class="example-model">Ferroli Fortuna С 24</div>
+                <div class="model-price">35 000 ₽</div>
+              </div>
             </div>
-            <div class="example-one-description">
-              <div class="example-name">газовый котёл</div>
-              <div class="example-model">Ferroli Fortuna С 24</div>
-              <div class="model-price1">35 000 ₽</div>
-            </div>
-          </div>
-
-          <div class="bestseller-item bestsellers-example-two">
-            <div class="example-img">
-              <img src="images/Rectangle45.svg" alt="" />
-            </div>
-            <div class="example-two-description">
-              <div class="example-name">радиатор</div>
-              <div class="example-model">Royal Thermo Revolution</div>
-              <div class="model-price2">7 450 ₽</div>
-            </div>
-          </div>
-
-          <div class="bestseller-item bestsellers-example-three">
-            <div class="example-img">
-              <img src="images/Group_34_2.svg" alt="" />
-            </div>
-            <div class="example-three-description">
-              <div class="example-name">радиатор</div>
-              <div class="example-model">Global STYLE PLUS 500</div>
-              <div class="model-price3">5 300 ₽</div>
+            <div class="bestseller-item bestsellers-example-two">
+              <div class="example-img">
+                <img src="images/Rectangle45.svg" alt="" />
+              </div>
+              <div class="example-two-description">
+                <div class="example-name">радиатор</div>
+                <div class="example-model">Royal Thermo Revolution</div>
+                <div class="model-price">7 450 ₽</div>
+              </div>
             </div>
           </div>
 
-          <div class="bestseller-item bestsellers-example-four">
-            <div class="example-img">
-              <img src="images/Group_34_1.svg" alt="" />
+          <div class="mobile-block">
+            <div class="bestseller-item bestsellers-example-three">
+              <div class="example-img">
+                <img src="images/Group_34_2.svg" alt="" />
+              </div>
+              <div class="example-three-description">
+                <div class="example-name">радиатор</div>
+                <div class="example-model">Global STYLE PLUS 500</div>
+                <div class="model-price">5 300 ₽</div>
+              </div>
             </div>
-            <div class="example-four-description">
-              <div class="example-name">газовый котёл</div>
-              <div class="example-model">Лемакс Газовик АОГВ-6</div>
-              <div class="model-price4">5 300 ₽</div>
+
+            <div class="bestseller-item bestsellers-example-four">
+              <div class="example-img">
+                <img src="images/Group_34_1.svg" alt="" />
+              </div>
+              <div class="example-four-description">
+                <div class="example-name">газовый котёл</div>
+                <div class="example-model">Лемакс Газовик АОГВ-6</div>
+                <div class="model-price">5 300 ₽</div>
+              </div>
             </div>
           </div>
         </div>
@@ -233,42 +249,102 @@
 
     <div class="wrapper wrapper-light-grey steps" id="approach">
       <div class="steps_screen">
-        <div class="steps-header">Применяем комплексный подход</div>
-        <div class="step step-one">ЭТО СОДЕРЖИМОЕ БЛОКА ШАГ НОМЕР ОДИН</div>
-        <div class="step step-two">СОДЕРЖИМОЕ БЛОКА ШАГ НОМЕР ДВА</div>
-        <div class="step step-three">СОДЕРЖИМОЕ БЛОКА ШАГ НОМЕР ТРИ</div>
-        <div class="step step-four">СОДЕРЖИМОЕ БЛОКА ШАГ НОМЕР ЧЕТЫРЕ</div>
-        <div class="step step-five">СОДЕРЖИМОЕ БЛОКА ШАГ НОМЕР ПЯТЬ</div>
-        <div class="step step-six">СОДЕРЖИМОЕ БЛОКА ШАГ НОМЕР ШЕСТЬ</div>
-        <div class="step step-seven">СОДЕРЖИМОЕ БЛОКА ШАГ НОМЕР СЕМЬ</div>
+        <div class="heading-2">Применяем комплексный подход</div>
+        <div class="steps">
+          <div class="step-item">
+            <div class="step-number-wrapper">
+              <div class="overlap-right"></div>
+              <div class="step-number">1</div>
+            </div>
+            <div class="step-text">
+              Оставляете заявку на нашем сайте, мы связываемся с вами и
+              обговариваем детали
+            </div>
+          </div>
+
+          <div class="step-item">
+            <div class="step-text">
+              Наш инженер бесплатно приезжает на объект, и вы обсуждаете все
+              детали
+            </div>
+            <div class="step-number-wrapper">
+              <div class="overlap-left"></div>
+              <div class="step-number">2</div>
+            </div>
+          </div>
+
+          <div class="step-item">
+            <div class="step-number-wrapper">
+              <div class="overlap-right"></div>
+              <div class="step-number">3</div>
+            </div>
+            <div class="step-text">
+              Составляем смету с указанием стоимости работ и материалов
+            </div>
+          </div>
+
+          <div class="step-item">
+            <div class="step-text">
+              После заключения договора оплачиваете только материалы. Доставляем
+              их на объект и приступаем к монтажу
+            </div>
+            <div class="step-number-wrapper">
+              <div class="overlap-right"></div>
+              <div class="step-number">4</div>
+            </div>
+          </div>
+
+          <div class="step-item">
+            <div class="step-number-wrapper">
+              <div class="overlap-right"></div>
+              <div class="step-number">5</div>
+            </div>
+            <div class="step-text">
+              Предоставляем акт выполненых работ, оплачиваете монтаж по факту
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="wrapper wrapper-white-dimmed wrapper-contacts" id="contacts">
       <div class="contact_block">
         <div class="contact-form">
-          <div class="contact-form-header">НАШИ КОНТАКТЫ</div>
+          <div class="heading-2">НАШИ КОНТАКТЫ</div>
 
           <div class="contact-form-item">
-            <div class="contacts-img contacts-location-img">
-              <img src="images/contacts/room.png" alt="" />
+            <div class="contacts-icon-wrapper">
+              <div class="contacts-img contacts-location-img">
+                <img src="images/contacts/room.png" alt="" />
+              </div>
             </div>
-            <div class="form-address-text">г. Воронеж, ул. Дорожная, д.2</div>
+            <div class="form-text">г. Воронеж, ул. Дорожная, д.2</div>
           </div>
 
           <div class="contact-form-item">
-            <div class="contacts-img contacts-message-img">
-              <img src="images/contacts/email.png" alt="" />
+            <div class="contacts-icon-wrapper">
+              <div class="contacts-img contacts-message-img">
+                <img src="images/contacts/email.png" alt="" />
+              </div>
             </div>
-            <div class="form-email-text">deltat@gmail.com</div>
+            <div class="form-text">deltat@gmail.com</div>
           </div>
 
           <div class="contact-form-item">
-            <div class="contacts-img contacts-call-img">
-              <img src="images/contacts/call.png" alt="" />
+            <div class="contacts-icon-wrapper">
+              <div class="contacts-img contacts-call-img">
+                <img src="images/contacts/call.png" alt="" />
+              </div>
             </div>
-            <div class="contacts-number-call">+ 7 (950) 753 - 74 -14</div>
+            <div class="form-text">+ 7 (950) 753 - 74 -14</div>
           </div>
+          <!-- КАРТА -->
+          <!--          <script-->
+          <!--            type="text/javascript"-->
+          <!--            charset="utf-8"-->
+          <!--            async-->
+          <!--            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3b4fe93c192479ddc4412bde9264d94aad30ea4490767fe568c9cd8b70085bc4&amp;width=100%25&amp;height=380&amp;lang=ru_RU&amp;scroll=true"-->
+          <!--          ></script>-->
         </div>
         <div class="application" id="calculate-project">
           <div class="application-header">
